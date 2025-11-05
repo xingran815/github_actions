@@ -7,7 +7,7 @@ jobs:
       matrix:
         os: [ubuntu-latest, ubuntu-24.04]
     steps:
-      - name: echo a string
+      - name: echoo a string
         run: echo "Hello world"
       - name: multiline script
         run: |
